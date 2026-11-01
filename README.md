@@ -1,16 +1,33 @@
-# React + Vite
+# Week 5 - Performance & Deployment Pass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend project built with React + Vite. This task focused on production deployment, performance optimization, SEO, and responsive testing.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Yahan Apna Vercel Ka Link Paste Karein](https://your-vercel-link.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Lighthouse Score
 
-## React Compiler
+**Before:** Performance: 100 | Accessibility: 97 | Best Practices: 100 | SEO: 83
+**After:** Performance: 99 | Accessibility: 97 | Best Practices: 100 | SEO: 91
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What I Did
 
-## Expanding the ESLint configuration
+- ✅ Deployed to Vercel with GitHub auto-deploy
+- ✅ Ran Lighthouse audit and fixed flagged issues
+- ✅ Added SEO essentials (title, meta description)
+- ✅ Added explicit width/height to images (prevented layout shift)
+- ✅ Verified responsiveness on mobile + desktop
+- ✅ Documented everything in this README
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React 18
+- Vite 5
+- Vercel (hosting)
+
+## Run Locally
+
+```bash
+git clone https://github.com/malaikazulqarnain/my-frontend-app.git
+cd my-frontend-app
+npm install
+npm run dev
