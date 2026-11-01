@@ -12,8 +12,8 @@ function App() {
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <img src={reactLogo} className="framework" alt="React logo" width="100" height="100" />
+          <img src={viteLogo} className="vite" alt="Vite logo" width="100" height="100" />
         </div>
         <div>
           <h1>Get started</h1>
@@ -42,13 +42,13 @@ function App() {
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
+                <img className="logo" src={viteLogo} alt="Vite logo" width="30" height="30" />
                 Explore Vite
               </a>
             </li>
             <li>
               <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
+                <img className="button-icon" src={reactLogo} alt="React logo" width="30" height="30" />
                 Learn more
               </a>
             </li>
